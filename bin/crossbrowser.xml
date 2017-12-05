@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+
+  
+  <test name="chromeTetsCases"> 
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="crossBrowserTesting.verifyTitle1"/>
+    </classes>
+  </test>
+
+  <test name="firefoxTestcases">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="crossBrowserTesting.verifyTitle1"/>
+    </classes>
+  </test>
+
+</suite> 
